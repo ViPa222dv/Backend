@@ -1,1 +1,0 @@
-Trying to practice on C# and Entity Framework
