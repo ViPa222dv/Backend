@@ -13,7 +13,7 @@ const restaurantScraper = {
                 headers: 'Content-Type: text/html; charset=utf-8',                
                 method: 'post',
                 body: login
-            }.then((response)=>{  
+            }.then(function(response){  
                 if(response.ok){
                     console.log('The request is ok.')
                     return
