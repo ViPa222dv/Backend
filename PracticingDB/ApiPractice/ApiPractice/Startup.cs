@@ -26,9 +26,9 @@ namespace ApiPractice
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
-            services.AddDbContext<PlayerContext>(o => o.UseSqlite("Data source=players.db"));
+            services.AddDbContext<Context>(o => o.UseSqlite("Data source=players.db"));
             services.AddScoped<IPlayerRepository, PlayerRepository>();
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,7 +54,7 @@ namespace ApiPractice
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

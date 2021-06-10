@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ApiPractice.Controller
 {
-    [Route("api/[controller]")]
+    [Route("api/player")]
     [ApiController]
     public class PlayerController : ControllerBase
     {
@@ -22,7 +22,8 @@ namespace ApiPractice.Controller
         [HttpGet]
         public async Task<IEnumerable<Player>> GetPlayers()
         {
-            return await _playerRepository.Get();
+            var players = await _playerRepository.Get();
+            return players;
         }
 
         [HttpGet("{id}")]

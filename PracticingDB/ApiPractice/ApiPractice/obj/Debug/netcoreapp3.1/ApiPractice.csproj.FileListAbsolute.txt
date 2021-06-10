@@ -73,5 +73,3 @@ C:\Users\Ville\OneDrive\Dokument\GitHub\Backend\PracticingDB\ApiPractice\ApiPrac
 C:\Users\Ville\OneDrive\Dokument\GitHub\Backend\PracticingDB\ApiPractice\ApiPractice\obj\Debug\netcoreapp3.1\ApiPractice.dll
 C:\Users\Ville\OneDrive\Dokument\GitHub\Backend\PracticingDB\ApiPractice\ApiPractice\obj\Debug\netcoreapp3.1\ApiPractice.pdb
 C:\Users\Ville\OneDrive\Dokument\GitHub\Backend\PracticingDB\ApiPractice\ApiPractice\obj\Debug\netcoreapp3.1\ApiPractice.genruntimeconfig.cache
-C:\Users\Ville\OneDrive\Dokument\GitHub\Backend\PracticingDB\ApiPractice\ApiPractice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
-C:\Users\Ville\OneDrive\Dokument\GitHub\Backend\PracticingDB\ApiPractice\ApiPractice\bin\Debug\netcoreapp3.1\Swashbuckle.SwaggerUi.dll

@@ -3,16 +3,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data.Common;
 
 namespace ApiPractice.Models
 {
-    public class PlayerContext : DbContext
+    public class Context : DbContext
     {
-        public PlayerContext(DbContextOptions<PlayerContext> options)
+        public Context(DbContextOptions<Context> options)
             :base(options)
         {
             Database.EnsureCreated();
         }
-        public DbSet<Player> Player { get; set; }
+
+        public DbSet<Player> Players { get; set; }
     }
 }

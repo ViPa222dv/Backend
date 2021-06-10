@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.7" />
-    <PackageReference Include="SwaggerUi" Version="1.1.0" />
   </ItemGroup>
 
 </Project>
